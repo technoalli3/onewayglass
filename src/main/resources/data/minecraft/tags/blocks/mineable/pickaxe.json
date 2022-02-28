@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "onewayglass:black_security_glass",
+    "onewayglass:white_security_glass",
+    "onewayglass:red_security_glass",
+    "onewayglass:orange_security_glass",
+    "onewayglass:yellow_security_glass",
+    "onewayglass:green_security_glass",
+    "onewayglass:blue_security_glass",
+    "onewayglass:purple_security_glass",
+    "onewayglass:pink_security_glass",
+    "onewayglass:brown_security_glass",
+    "onewayglass:gray_security_glass",
+    "onewayglass:cyan_security_glass",
+    "onewayglass:light_gray_security_glass",
+    "onewayglass:light_blue_security_glass"
+  ]
+}

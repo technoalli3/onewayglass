@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/brown_security_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/brown_security_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/brown_security_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/brown_security_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/brown_security_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/brown_security_glass",
+      "y": 270
+    }
+  }
+}
