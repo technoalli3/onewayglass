@@ -15,8 +15,8 @@
     "onewayglass:cyan_security_glass",
     "onewayglass:light_gray_security_glass",
     "onewayglass:light_blue_security_glass",
-    "onewayglass:diorite_security_glass",
-    "onewayglass:andesite_security_glass",
-    "onewayglass:granite_security_glass"
+    "onewayglass:diorite_glass",
+    "onewayglass:andesite_glass",
+    "onewayglass:granite_glass"
   ]
 }
