@@ -26,8 +26,6 @@ public class GlassClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(LIGHT_GRAY_SECURITY_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(CYAN_SECURITY_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(BROWN_SECURITY_GLASS, RenderLayer.getTranslucent());
-
-        //Natural Materials
         BlockRenderLayerMap.INSTANCE.putBlock(OAK_PLANK_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SPRUCE_PLANK_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ACACIA_PLANK_GLASS, RenderLayer.getTranslucent());
