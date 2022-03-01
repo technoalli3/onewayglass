@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "onewayglass:items/glass_pane",
+    "layer1": "minecraft:item/stick",
+    "layer2": "onewayglass:items/stick2"
+  }
+}

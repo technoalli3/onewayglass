@@ -25,5 +25,6 @@
   "block.onewayglass.granite_glass": "Granite Glass",
   "block.onewayglass.diorite_glass": "Diorite Glass",
   "block.onewayglass.andesite_glass": "Andesite Glass",
-  "block.onewayglass.deepslate_glass": "Deepslate Glass"
+  "block.onewayglass.deepslate_glass": "Deepslate Glass",
+  "item.onewayglass.glass_frame": "Glass Frame"
 }
