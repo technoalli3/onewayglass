@@ -19,6 +19,8 @@ public class NaturalModBlocks {
     public static final DirectionalBlock DIORITE_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
     public static final DirectionalBlock ANDESITE_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
     public static final DirectionalBlock DEEPSLATE_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock GRAVEL_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock GRASS_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "oak_plank_glass"), OAK_PLANK_GLASS);
@@ -32,5 +34,7 @@ public class NaturalModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "diorite_glass"), DIORITE_GLASS);
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "andesite_glass"), ANDESITE_GLASS);
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "deepslate_glass"), DEEPSLATE_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "gravel_glass"), GRAVEL_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "grass_glass"), GRASS_GLASS);
     }
 }

@@ -20,6 +20,8 @@ public class NaturalModItems {
     public static final BlockItem DIORITE_GLASS = new BlockItem(NaturalModBlocks.DIORITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem ANDESITE_GLASS = new BlockItem(NaturalModBlocks.ANDESITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem DEEPSLATE_GLASS = new BlockItem(NaturalModBlocks.DEEPSLATE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem GRAVEL_GLASS = new BlockItem(NaturalModBlocks.GRAVEL_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem GRASS_GLASS = new BlockItem(NaturalModBlocks.GRASS_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "oak_plank_glass"), OAK_PLANK_GLASS);
@@ -33,5 +35,7 @@ public class NaturalModItems {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "diorite_glass"), DIORITE_GLASS);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "andesite_glass"), ANDESITE_GLASS);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "deepslate_glass"), DEEPSLATE_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "gravel_glass"), GRAVEL_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "grass_glass"), GRASS_GLASS);
     }
 }
