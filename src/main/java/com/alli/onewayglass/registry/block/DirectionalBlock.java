@@ -28,10 +28,6 @@ public class DirectionalBlock extends FacingBlock {
         stateManager.add(Properties.FACING);
     }
 
-    @Override
-    public boolean isTranslucent(BlockState state, BlockView world, BlockPos pos) {
-        return false;
-    }
 
     @Override
     public int getOpacity(BlockState state, BlockView world, BlockPos pos) {
