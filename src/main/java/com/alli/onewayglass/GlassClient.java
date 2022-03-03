@@ -38,5 +38,7 @@ public class GlassClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(DIORITE_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ANDESITE_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(DEEPSLATE_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(GRASS_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(GRAVEL_GLASS, RenderLayer.getTranslucent());
     }
 }
