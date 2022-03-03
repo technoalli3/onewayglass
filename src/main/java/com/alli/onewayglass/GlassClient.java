@@ -4,7 +4,8 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
-import static com.alli.onewayglass.registry.block.ModBlocks.*;
+import static com.alli.onewayglass.registry.block.ColouredModBlocks.*;
+import static com.alli.onewayglass.registry.block.NaturalModBlocks.*;
 
 public class GlassClient implements ClientModInitializer {
     @Override

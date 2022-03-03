@@ -1,7 +1,8 @@
 package com.alli.onewayglass.registry.item;
 
 import com.alli.onewayglass.OneWayGlass;
-import com.alli.onewayglass.registry.block.ModBlocks;
+import com.alli.onewayglass.registry.block.ColouredModBlocks;
+import com.alli.onewayglass.registry.block.NaturalModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,35 +15,35 @@ public class ModItems {
     //Items
     public static final Item GLASS_FRAME = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
     //Block Items
-    public static final BlockItem BLACK_SECURITY_GLASS = new BlockItem(ModBlocks.BLACK_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem WHITE_SECURITY_GLASS = new BlockItem(ModBlocks.WHITE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem RED_SECURITY_GLASS = new BlockItem(ModBlocks.RED_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem ORANGE_SECURITY_GLASS = new BlockItem(ModBlocks.ORANGE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem YELLOW_SECURITY_GLASS = new BlockItem(ModBlocks.YELLOW_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem GREEN_SECURITY_GLASS = new BlockItem(ModBlocks.GREEN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem BLUE_SECURITY_GLASS = new BlockItem(ModBlocks.BLUE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem PURPLE_SECURITY_GLASS = new BlockItem(ModBlocks.PURPLE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem MAGENTA_SECURITY_GLASS = new BlockItem(ModBlocks.MAGENTA_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem LIGHT_BLUE_SECURITY_GLASS = new BlockItem(ModBlocks.LIGHT_BLUE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem LIME_SECURITY_GLASS = new BlockItem(ModBlocks.LIME_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem PINK_SECURITY_GLASS = new BlockItem(ModBlocks.PINK_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem GRAY_SECURITY_GLASS = new BlockItem(ModBlocks.GRAY_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem LIGHT_GRAY_SECURITY_GLASS = new BlockItem(ModBlocks.LIGHT_GRAY_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem CYAN_SECURITY_GLASS = new BlockItem(ModBlocks.CYAN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem BROWN_SECURITY_GLASS = new BlockItem(ModBlocks.BROWN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem BLACK_SECURITY_GLASS = new BlockItem(ColouredModBlocks.BLACK_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem WHITE_SECURITY_GLASS = new BlockItem(ColouredModBlocks.WHITE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem RED_SECURITY_GLASS = new BlockItem(ColouredModBlocks.RED_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem ORANGE_SECURITY_GLASS = new BlockItem(ColouredModBlocks.ORANGE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem YELLOW_SECURITY_GLASS = new BlockItem(ColouredModBlocks.YELLOW_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem GREEN_SECURITY_GLASS = new BlockItem(ColouredModBlocks.GREEN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem BLUE_SECURITY_GLASS = new BlockItem(ColouredModBlocks.BLUE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem PURPLE_SECURITY_GLASS = new BlockItem(ColouredModBlocks.PURPLE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MAGENTA_SECURITY_GLASS = new BlockItem(ColouredModBlocks.MAGENTA_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem LIGHT_BLUE_SECURITY_GLASS = new BlockItem(ColouredModBlocks.LIGHT_BLUE_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem LIME_SECURITY_GLASS = new BlockItem(ColouredModBlocks.LIME_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem PINK_SECURITY_GLASS = new BlockItem(ColouredModBlocks.PINK_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem GRAY_SECURITY_GLASS = new BlockItem(ColouredModBlocks.GRAY_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem LIGHT_GRAY_SECURITY_GLASS = new BlockItem(ColouredModBlocks.LIGHT_GRAY_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem CYAN_SECURITY_GLASS = new BlockItem(ColouredModBlocks.CYAN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem BROWN_SECURITY_GLASS = new BlockItem(ColouredModBlocks.BROWN_SECURITY_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     //Natural Materials
-    public static final BlockItem OAK_PLANK_GLASS = new BlockItem(ModBlocks.OAK_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem SPRUCE_PLANK_GLASS = new BlockItem(ModBlocks.SPRUCE_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem ACACIA_PLANK_GLASS = new BlockItem(ModBlocks.ACACIA_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem DARK_PLANK_GLASS = new BlockItem(ModBlocks.DARK_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem BIRCH_PLANK_GLASS = new BlockItem(ModBlocks.BIRCH_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem JUNGLE_PLANK_GLASS = new BlockItem(ModBlocks.JUNGLE_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem STONE_GLASS = new BlockItem(ModBlocks.STONE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem GRANITE_GLASS = new BlockItem(ModBlocks.GRANITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem DIORITE_GLASS = new BlockItem(ModBlocks.DIORITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem ANDESITE_GLASS = new BlockItem(ModBlocks.ANDESITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem DEEPSLATE_GLASS = new BlockItem(ModBlocks.DEEPSLATE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem OAK_PLANK_GLASS = new BlockItem(NaturalModBlocks.OAK_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem SPRUCE_PLANK_GLASS = new BlockItem(NaturalModBlocks.SPRUCE_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem ACACIA_PLANK_GLASS = new BlockItem(NaturalModBlocks.ACACIA_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem DARK_PLANK_GLASS = new BlockItem(NaturalModBlocks.DARK_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem BIRCH_PLANK_GLASS = new BlockItem(NaturalModBlocks.BIRCH_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem JUNGLE_PLANK_GLASS = new BlockItem(NaturalModBlocks.JUNGLE_PLANK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem STONE_GLASS = new BlockItem(NaturalModBlocks.STONE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem GRANITE_GLASS = new BlockItem(NaturalModBlocks.GRANITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem DIORITE_GLASS = new BlockItem(NaturalModBlocks.DIORITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem ANDESITE_GLASS = new BlockItem(NaturalModBlocks.ANDESITE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem DEEPSLATE_GLASS = new BlockItem(NaturalModBlocks.DEEPSLATE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
 
 
 

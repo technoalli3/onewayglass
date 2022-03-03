@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "has_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:glass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "onewayglass:glass_frame"
+    ]
+  }
+}
