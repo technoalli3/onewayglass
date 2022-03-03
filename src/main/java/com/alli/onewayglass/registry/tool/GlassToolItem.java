@@ -1,10 +1,6 @@
-package com.alli.onewayglass.registry.item;
+package com.alli.onewayglass.registry.tool;
 
 import com.alli.onewayglass.OneWayGlass;
-import com.alli.onewayglass.registry.tool.CustomAxe;
-import com.alli.onewayglass.registry.tool.CustomHoe;
-import com.alli.onewayglass.registry.tool.CustomPickaxe;
-import com.alli.onewayglass.registry.tool.GlassToolMaterial;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
