@@ -7,13 +7,16 @@ import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.world.BlockView;
 
 public class DirectionalBlock extends FacingBlock {
     public DirectionalBlock(Settings settings) {
         super(settings);
         setDefaultState(this.stateManager.getDefaultState().with(Properties.FACING, Direction.NORTH));
     }
+
 
     @Override
     public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction) {
@@ -26,9 +29,15 @@ public class DirectionalBlock extends FacingBlock {
     }
 
 
+    @Override
+    public int getOpacity(BlockState state, BlockView world, BlockPos pos) {
+        return world.getMaxLightLevel();
+    }
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return (BlockState)this.getDefaultState().with(Properties.FACING, ctx.getPlayerLookDirection().getOpposite());
     }
+
+
 }

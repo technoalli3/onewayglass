@@ -1,7 +1,11 @@
 package com.alli.onewayglass;
 
-import com.alli.onewayglass.registry.block.ModBlocks;
+import com.alli.onewayglass.registry.block.ColouredModBlocks;
+import com.alli.onewayglass.registry.block.NaturalModBlocks;
+import com.alli.onewayglass.registry.item.ColouredModItems;
+import com.alli.onewayglass.registry.item.GlassToolItem;
 import com.alli.onewayglass.registry.item.ModItems;
+import com.alli.onewayglass.registry.item.NaturalModItems;
 import net.fabricmc.api.ModInitializer;
 
 public class OneWayGlass implements ModInitializer {
@@ -10,8 +14,15 @@ public class OneWayGlass implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        //Blocks
+        ColouredModBlocks.registerBlocks();
+        NaturalModBlocks.registerBlocks();
+        //Items
         ModItems.registerItems();
-        ModBlocks.registerBlocks();
+        ColouredModItems.registerItems();
+        NaturalModItems.registerItems();
+        //Tool Items
+        GlassToolItem.registerTools();
     }
 
 }

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/grass_glass_up"
+    },
+    "facing=down": {
+      "model": "onewayglass:block/grass_glass_down"
+    },
+    "facing=east": {
+      "model": "onewayglass:block/grass_glass_side",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/grass_glass_side"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/grass_glass_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/grass_glass_side",
+      "y": 270
+    }
+  }
+}
