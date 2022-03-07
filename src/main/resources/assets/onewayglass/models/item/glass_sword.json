@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layerN": "onewayglass:items/glass_sword_icon",
+		"layer0": "onewayglass:items/glass_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

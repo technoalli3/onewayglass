@@ -28,5 +28,10 @@
   "block.onewayglass.deepslate_glass": "Deepslate Glass",
   "item.onewayglass.glass_frame": "Glass Frame",
   "block.onewayglass.grass_glass": "One-Way Grass",
-  "block.onewayglass.gravel_glass": "Gravel Glass"
+  "block.onewayglass.gravel_glass": "Gravel Glass",
+  "item.onewayglass.glass_shovel": "Glass Shovel",
+  "item.onewayglass.glass_pickaxe": "Glass Pickaxe",
+  "item.onewayglass.glass_axe": "Glass Axe",
+  "item.onewayglass.glass_hoe": "Glass Hoe",
+  "item.onewayglass.glass_sword": "Glass Sword"
 }
