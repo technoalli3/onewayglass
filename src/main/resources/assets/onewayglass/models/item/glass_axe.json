@@ -2,5 +2,8 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "onewayglass:items/glass_axe"
-  }
+  },
+  "overrides": [
+    { "predicate": {  "custom_model_data": 1 }, "model": "onewayglass:item/custom/glass_axe_icon"}
+  ]
 }
