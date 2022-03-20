@@ -6,11 +6,11 @@
   "mixins": [
   ],
   "client": [
-    "GlassSwordIcon",
-    "GlassPickaxeIcon",
-    "GlassAxeIcon",
-    "GlassHoeIcon",
-    "GlassShovelIcon"
+    "MixinGlassSwordIcon",
+    "MixinGlassPickaxeIcon",
+    "MixinGlassAxeIcon",
+    "MixinGlassHoeIcon",
+    "MixinGlassShovelIcon"
   ],
   "injectors": {
     "defaultRequire": 1

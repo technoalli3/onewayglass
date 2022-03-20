@@ -8,11 +8,11 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 @Mixin(ItemRenderer.class)
-public class GlassPickaxeIcon {
+public class MixinGlassShovelIcon {
     @ModifyVariable(method = "innerRenderInGui(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;IIII)V",
             at = @At("HEAD"), ordinal = 0, argsOnly = true)
     private ItemStack modid$CustomItemstack(ItemStack old) {
-        if (old.isOf(GlassToolItem.GLASS_PICKAXE)) {
+        if (old.isOf(GlassToolItem.GLASS_SHOVEL)) {
             ItemStack stack = old.copy();
             stack.getOrCreateNbt().putInt("CustomModelData", 1);
             return stack;

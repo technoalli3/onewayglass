@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 @Mixin(ItemRenderer.class)
-public class GlassSwordIcon {
+public class MixinGlassSwordIcon {
     @ModifyVariable(method = "innerRenderInGui(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;IIII)V",
             at = @At("HEAD"), ordinal = 0, argsOnly = true)
     private ItemStack modid$CustomItemstack(ItemStack old) {
