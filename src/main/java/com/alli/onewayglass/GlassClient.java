@@ -2,10 +2,12 @@ package com.alli.onewayglass;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 
 import static com.alli.onewayglass.registry.block.ColouredModBlocks.*;
 import static com.alli.onewayglass.registry.block.NaturalModBlocks.*;
+import static com.alli.onewayglass.registry.tool.GlassToolItem.GLASS_SWORD;
 
 public class GlassClient implements ClientModInitializer {
     @Override

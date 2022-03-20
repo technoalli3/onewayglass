@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/onewayglass/icon.png",
+  "icon": "glass_sword_icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -26,6 +26,7 @@
     ]
   },
   "mixins": [
+    "onewayglass.mixins.json"
   ],
 
   "depends": {

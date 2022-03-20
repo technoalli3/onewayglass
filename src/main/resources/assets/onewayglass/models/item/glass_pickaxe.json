@@ -2,5 +2,8 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "onewayglass:items/glass_pickaxe"
-  }
+  },
+  "overrides": [
+    { "predicate": {  "custom_model_data": 1 }, "model": "onewayglass:item/custom/glass_pickaxe_icon"}
+  ]
 }

@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/handheld",
+	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layerN": "onewayglass:items/glass_sword_icon",
 		"layer0": "onewayglass:items/glass_sword"
 	},
 	"display": {
@@ -12,5 +11,8 @@
 		"thirdperson_lefthand": {
 			"scale": [0, 0, 0]
 		}
-	}
+	},
+	"overrides": [
+		{ "predicate": {  "custom_model_data": 1 }, "model": "onewayglass:item/custom/glass_sword_icon"}
+	]
 }
