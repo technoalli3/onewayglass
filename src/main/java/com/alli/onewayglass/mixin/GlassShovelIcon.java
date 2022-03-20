@@ -12,7 +12,7 @@ public class GlassShovelIcon {
     @ModifyVariable(method = "innerRenderInGui(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;IIII)V",
             at = @At("HEAD"), ordinal = 0, argsOnly = true)
     private ItemStack modid$CustomItemstack(ItemStack old) {
-        if (old.isOf(GlassToolItem.GLASS_SWORD)) {
+        if (old.isOf(GlassToolItem.GLASS_SHOVEL)) {
             ItemStack stack = old.copy();
             stack.getOrCreateNbt().putInt("CustomModelData", 1);
             return stack;
