@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "onewayglass:items/pickaxe_mold"
+    "layer0": "onewayglass:items/prepped_pickaxe_mold"
   }
 }
