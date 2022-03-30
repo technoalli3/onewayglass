@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "onewayglass:finished_axe_mold"
+    },
+    {
+      "item": "onewayglass:molten_glass_bucket"
+    }
+  ],
+  "result": {
+    "item": "onewayglass:finished_axe_mold",
+    "count": 1
+  }
+}

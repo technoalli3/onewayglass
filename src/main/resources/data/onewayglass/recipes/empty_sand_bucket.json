@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "onewayglass:sand_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sand",
+    "count": 1
+  }
+}

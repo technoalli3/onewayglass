@@ -1,6 +1,7 @@
 package com.alli.onewayglass.registry.tool;
 
 import com.alli.onewayglass.OneWayGlass;
+import net.minecraft.advancement.criterion.ItemUsedOnBlockCriterion;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -11,6 +12,7 @@ public class GlassToolItem {
     public static ToolItem GLASS_PICKAXE = new CustomPickaxe(GlassToolMaterial.INSTANCE, 1, -2.8F, new Item.Settings().group(ItemGroup.TOOLS));
     public static ToolItem GLASS_AXE = new CustomAxe(GlassToolMaterial.INSTANCE, 7.0F, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
     public static ToolItem GLASS_HOE = new CustomHoe(GlassToolMaterial.INSTANCE, 7, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
+
 
     public static void registerTools() {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "glass_shovel"), GLASS_SHOVEL);
