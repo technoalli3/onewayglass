@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "onewayglass:prepped_axe_mold"
+  },
+  "result": "onewayglass:finished_axe_mold",
+  "experience": 0.2,
+  "cookingtime": 100
+}

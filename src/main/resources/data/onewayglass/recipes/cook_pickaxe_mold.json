@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "onewayglass:prepped_pickaxe_mold"
+  },
+  "result": "onewayglass:finished_pickaxe_mold",
+  "experience": 0.2,
+  "cookingtime": 100
+}

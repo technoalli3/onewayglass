@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "onewayglass:prepped_hoe_mold"
+  },
+  "result": "onewayglass:finished_hoe_mold",
+  "experience": 0.2,
+  "cookingtime": 100
+}
