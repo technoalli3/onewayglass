@@ -8,7 +8,7 @@ import com.alli.onewayglass.registry.item.ModItems;
 import com.alli.onewayglass.registry.item.NaturalModItems;
 import net.fabricmc.api.ModInitializer;
 
-public class OneWayGlass implements ModInitializer {
+public class        OneWayGlass implements ModInitializer {
 
     public static final String MOD_ID = "onewayglass";
 

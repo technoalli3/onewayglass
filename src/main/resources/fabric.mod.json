@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "glass_sword_icon.png",
+  "icon": "assets/onewayglass/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -34,6 +34,9 @@
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
+  },
+  "conflicts": {
+    "quilt-loader" : "*"
   },
   "suggests": {
     "another-mod": "*"

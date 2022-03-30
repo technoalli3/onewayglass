@@ -3,6 +3,14 @@
   "textures": {
     "layer0": "onewayglass:items/glass_pickaxe"
   },
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [0, 0, 0]
+    },
+    "thirdperson_lefthand": {
+      "scale": [0, 0, 0]
+    }
+  },
   "overrides": [
     { "predicate": {  "custom_model_data": 1 }, "model": "onewayglass:item/custom/glass_pickaxe_icon"}
   ]
