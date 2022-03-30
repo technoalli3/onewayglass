@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "result": {
+    "item": "onewayglass:prepped_hoe_mold",
+    "count": 1
+  }
+}
