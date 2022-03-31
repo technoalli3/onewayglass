@@ -7,6 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+
 import static com.alli.onewayglass.registry.tool.GlassToolItem.*;
 import static net.minecraft.item.Items.BUCKET;
 
@@ -28,7 +29,10 @@ public class ModItems {
     public static final Item FINISHED_SHOVEL_MOLD = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).recipeRemainder(GLASS_SHOVEL));
     //Buckets
     public static final Item SAND_BUCKET = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
+    public static final Item POWDERED_GLASS_BUCKET = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
     public static final Item MOLTEN_GLASS_BUCKET = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).recipeRemainder(BUCKET));
+    //powdered glass
+    public static final Item POWDERED_GLASS = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
 
 
     public static void registerItems() {
@@ -48,6 +52,10 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "finished_hoe_mold"), FINISHED_HOE_MOLD);
         //Buckets
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "sand_bucket"), SAND_BUCKET);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "powdered_glass_bucket"), POWDERED_GLASS_BUCKET);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "molten_glass_bucket"), MOLTEN_GLASS_BUCKET);
+        //powdered glass
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "powdered_glass"), POWDERED_GLASS);
+
     }
 }

@@ -3,12 +3,12 @@ package com.alli.onewayglass;
 import com.alli.onewayglass.registry.block.ColouredModBlocks;
 import com.alli.onewayglass.registry.block.NaturalModBlocks;
 import com.alli.onewayglass.registry.item.ColouredModItems;
-import com.alli.onewayglass.registry.tool.GlassToolItem;
 import com.alli.onewayglass.registry.item.ModItems;
 import com.alli.onewayglass.registry.item.NaturalModItems;
+import com.alli.onewayglass.registry.tool.GlassToolItem;
 import net.fabricmc.api.ModInitializer;
 
-public class        OneWayGlass implements ModInitializer {
+public class OneWayGlass implements ModInitializer {
 
     public static final String MOD_ID = "onewayglass";
 

@@ -1,0 +1,6 @@
+{
+  "parent": "onewayglass:item/glass_sword",
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "item/wheat"}
+  ]
+}

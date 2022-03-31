@@ -1,5 +1,6 @@
 package com.alli.onewayglass.registry.tool;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -34,6 +35,6 @@ public class GlassToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return Ingredient.ofItems(Items.GLASS);
     }
 }

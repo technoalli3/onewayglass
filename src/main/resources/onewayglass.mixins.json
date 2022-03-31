@@ -4,6 +4,7 @@
   "package": "com.alli.onewayglass.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MixinReplaceBrokenTool"
   ],
   "client": [
     "MixinGlassSwordIcon",
