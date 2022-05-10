@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# One Way Glass
 
-## Setup
+## Information
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+For information on how the mod works, check out the [wiki here](https://github.com/technoalli3/onewayglass/wiki).
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Please see the [license file](https://github.com/technoalli3/onewayglass/blob/1.18-Java/LICENSE) for more information on how you can use this project.
