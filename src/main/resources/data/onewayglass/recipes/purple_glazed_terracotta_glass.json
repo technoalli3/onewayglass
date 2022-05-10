@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "F": {
+      "item": "onewayglass:glass_frame"
+    }
+  },
+  "result": {
+    "item": "onewayglass:purple_glazed_terracotta_glass",
+    "count": 8
+  }
+}

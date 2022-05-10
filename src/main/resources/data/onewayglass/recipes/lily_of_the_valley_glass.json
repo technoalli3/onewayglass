@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "F": {
+      "item": "onewayglass:glass_frame"
+    }
+  },
+  "result": {
+    "item": "onewayglass:lily_of_the_valley_glass",
+    "count": 8
+  }
+}

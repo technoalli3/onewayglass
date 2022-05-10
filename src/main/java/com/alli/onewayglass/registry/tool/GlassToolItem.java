@@ -1,7 +1,6 @@
 package com.alli.onewayglass.registry.tool;
 
 import com.alli.onewayglass.OneWayGlass;
-import net.minecraft.advancement.criterion.ItemUsedOnBlockCriterion;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:brewing_stand"
+    },
+    "F": {
+      "item": "onewayglass:glass_frame"
+    }
+  },
+  "result": {
+    "item": "onewayglass:brewing_stand_glass",
+    "count": 8
+  }
+}

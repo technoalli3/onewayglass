@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/rooted_dirt",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/rooted_dirt"
+  }
+}

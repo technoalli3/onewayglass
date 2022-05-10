@@ -3,17 +3,16 @@
   "id": "onewayglass",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "OneWayGlass",
+  "description": "A mod that turns a majority of vanilla blocks into secretive, one-way glass blocks. Great for building hidden bases.",
   "authors": [
-    "Me!"
+    "TechnoAlli3"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/technoalli3"
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPL-3.0",
   "icon": "assets/onewayglass/icon.png",
 
   "environment": "*",
@@ -36,7 +35,7 @@
     "java": ">=17"
   },
   "conflicts": {
-    "quilt-loader" : "*"
+
   },
   "suggests": {
     "another-mod": "*"

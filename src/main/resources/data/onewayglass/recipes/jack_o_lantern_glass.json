@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "F": {
+      "item": "onewayglass:glass_frame"
+    }
+  },
+  "result": {
+    "item": "onewayglass:jack_o_lantern_glass",
+    "count": 8
+  }
+}

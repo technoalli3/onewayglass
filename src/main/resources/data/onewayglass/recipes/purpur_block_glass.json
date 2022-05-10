@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:purpur_block"
+    },
+    "F": {
+      "item": "onewayglass:glass_frame"
+    }
+  },
+  "result": {
+    "item": "onewayglass:purpur_block_glass",
+    "count": 8
+  }
+}

@@ -1,24 +1,26 @@
 {
   "variants": {
     "facing=up": {
-      "model": "onewayglass:block/grass_glass_up"
+      "model": "onewayglass:block/grass_glass",
+      "x": 270
     },
     "facing=down": {
-      "model": "onewayglass:block/grass_glass_down"
+      "model": "onewayglass:block/grass_glass",
+      "x": 90
     },
     "facing=east": {
-      "model": "onewayglass:block/grass_glass_side",
+      "model": "onewayglass:block/grass_glass",
       "y": 90
     },
     "facing=north": {
-      "model": "onewayglass:block/grass_glass_side"
+      "model": "onewayglass:block/grass_glass"
     },
     "facing=south": {
-      "model": "onewayglass:block/grass_glass_side",
+      "model": "onewayglass:block/grass_glass",
       "y": 180
     },
     "facing=west": {
-      "model": "onewayglass:block/grass_glass_side",
+      "model": "onewayglass:block/grass_glass",
       "y": 270
     }
   }

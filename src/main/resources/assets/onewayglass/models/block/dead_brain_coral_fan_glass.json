@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/dead_brain_coral_fan",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/dead_brain_coral_fan"
+  }
+}

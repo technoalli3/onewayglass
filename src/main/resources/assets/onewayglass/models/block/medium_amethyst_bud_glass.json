@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/medium_amethyst_bud",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/medium_amethyst_bud"
+  }
+}

@@ -1,28 +1,23 @@
 package com.alli.onewayglass;
 
-import com.alli.onewayglass.registry.block.ColouredModBlocks;
-import com.alli.onewayglass.registry.block.NaturalModBlocks;
-import com.alli.onewayglass.registry.item.ColouredModItems;
+import com.alli.onewayglass.registry.block.ModBlocks;
+import com.alli.onewayglass.registry.item.ModBlockItems;
 import com.alli.onewayglass.registry.item.ModItems;
-import com.alli.onewayglass.registry.item.NaturalModItems;
 import com.alli.onewayglass.registry.tool.GlassToolItem;
 import net.fabricmc.api.ModInitializer;
 
 public class OneWayGlass implements ModInitializer {
 
-    public static final String MOD_ID = "onewayglass";
+    public static final String MOD_ID = "onewayglass"; //Mod id - matches in fabric.mod.json
 
     @Override
     public void onInitialize() {
         //Blocks
-        ColouredModBlocks.registerBlocks();
-        NaturalModBlocks.registerBlocks();
         //Items
         ModItems.registerItems();
-        ColouredModItems.registerItems();
-        NaturalModItems.registerItems();
+        ModBlockItems.registerItems();// Calls registry for natural block items
         //Tool Items
-        GlassToolItem.registerTools();
+        GlassToolItem.registerTools();// Calls registry for glass tools
+        ModBlocks.registerBlocks();
     }
-
 }

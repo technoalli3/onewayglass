@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/flower_pot_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/flower_pot_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/flower_pot_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/flower_pot_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/flower_pot_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/flower_pot_glass",
+      "y": 270
+    }
+  }
+}

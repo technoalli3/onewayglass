@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import static com.alli.onewayglass.registry.item.ModItems.POWDERED_GLASS;
-import static com.alli.onewayglass.registry.tool.GlassToolItem.GLASS_PICKAXE;
+import static com.alli.onewayglass.registry.tool.GlassToolItem.*;
 
 @Mixin(LivingEntity.class)
 public abstract class MixinReplaceBrokenTool {
@@ -37,6 +37,18 @@ public abstract class MixinReplaceBrokenTool {
     @Inject(method="sendEquipmentBreakStatus",at=@At("HEAD"))
     public void sendToolBreakStatus(EquipmentSlot slot, CallbackInfo ci) {
         if(getMainHandStack().isOf(GLASS_PICKAXE)) {
+            this.equipStack(slot, new ItemStack(POWDERED_GLASS));
+        }
+        if(getMainHandStack().isOf(GLASS_AXE)) {
+            this.equipStack(slot, new ItemStack(POWDERED_GLASS));
+        }
+        if(getMainHandStack().isOf(GLASS_HOE)) {
+            this.equipStack(slot, new ItemStack(POWDERED_GLASS));
+        }
+        if(getMainHandStack().isOf(GLASS_SWORD)) {
+            this.equipStack(slot, new ItemStack(POWDERED_GLASS));
+        }
+        if(getMainHandStack().isOf(GLASS_SHOVEL)) {
             this.equipStack(slot, new ItemStack(POWDERED_GLASS));
         }
     }

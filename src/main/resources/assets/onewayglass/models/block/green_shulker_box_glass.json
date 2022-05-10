@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/green_shulker_box",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/green_shulker_box"
+  }
+}

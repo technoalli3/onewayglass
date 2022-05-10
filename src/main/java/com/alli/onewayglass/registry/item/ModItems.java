@@ -7,7 +7,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-
 import static com.alli.onewayglass.registry.tool.GlassToolItem.*;
 import static net.minecraft.item.Items.BUCKET;
 
@@ -32,7 +31,7 @@ public class ModItems {
     public static final Item POWDERED_GLASS_BUCKET = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
     public static final Item MOLTEN_GLASS_BUCKET = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).recipeRemainder(BUCKET));
     //powdered glass
-    public static final Item POWDERED_GLASS = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
+    public static final Item POWDERED_GLASS = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS).maxCount(2));
 
 
     public static void registerItems() {

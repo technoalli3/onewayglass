@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/chiseled_quartz_block",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/chiseled_quartz_block"
+  }
+}

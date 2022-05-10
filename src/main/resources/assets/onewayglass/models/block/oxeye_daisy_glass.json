@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/oxeye_daisy",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/oxeye_daisy"
+  }
+}

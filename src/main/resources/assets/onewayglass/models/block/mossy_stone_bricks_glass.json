@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/mossy_stone_bricks",
+    "front": "onewayglass:blocks/security_glass_front",
+    "side": "minecraft:block/mossy_stone_bricks"
+  }
+}

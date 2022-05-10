@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/smooth_basalt_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/smooth_basalt_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/smooth_basalt_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/smooth_basalt_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/smooth_basalt_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/smooth_basalt_glass",
+      "y": 270
+    }
+  }
+}

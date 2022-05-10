@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/coal_ore_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/coal_ore_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/coal_ore_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/coal_ore_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/coal_ore_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/coal_ore_glass",
+      "y": 270
+    }
+  }
+}

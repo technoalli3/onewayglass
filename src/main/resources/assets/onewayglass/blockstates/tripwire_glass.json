@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/tripwire_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/tripwire_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/tripwire_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/tripwire_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/tripwire_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/tripwire_glass",
+      "y": 270
+    }
+  }
+}

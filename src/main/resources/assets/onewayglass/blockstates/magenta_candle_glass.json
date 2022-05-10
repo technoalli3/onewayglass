@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "onewayglass:block/magenta_candle_glass",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "onewayglass:block/magenta_candle_glass",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "onewayglass:block/magenta_candle_glass",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "onewayglass:block/magenta_candle_glass"
+    },
+    "facing=south": {
+      "model": "onewayglass:block/magenta_candle_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "onewayglass:block/magenta_candle_glass",
+      "y": 270
+    }
+  }
+}
