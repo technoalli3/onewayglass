@@ -440,5 +440,18 @@
   "block.onewayglass.smooth_basalt_glass": "Smooth Basalt Glass",
   "block.onewayglass.raw_iron_block_glass": "Raw Iron Block Glass",
   "block.onewayglass.raw_copper_block_glass": "Raw Copper Block Glass",
-  "block.onewayglass.raw_gold_block_glass": "Raw Gold Block Glass"
+  "block.onewayglass.raw_gold_block_glass": "Raw Gold Block Glass",
+  "block.onewayglass.mangrove_planks_glass": "Mangrove Planks Glass",
+  "block.onewayglass.mangrove_log_glass": "Mangrove Log Glass",
+  "block.onewayglass.stripped_mangrove_log_glass": "Stripped Mangrove Log Glass",
+  "block.onewayglass.mangrove_wood_glass": "Mangrove Wood Glass",
+  "block.onewayglass.reinforced_deepslate_glass": "Reinforced Deepslate Glass",
+  "block.onewayglass.packed_mud_glass": "Packed Mud Glass",
+  "block.onewayglass.mud_bricks_glass": "Mud Bricks Glass",
+  "block.onewayglass.sculk_glass": "Sculk Glass",
+  "block.onewayglass.ochre_froglight_glass": "Ochre Froglight Glass",
+  "block.onewayglass.verdant_froglight_glass": "Verdant Froglight Glass",
+  "block.onewayglass.pearlescent_froglight_glass": "Pearlescent Froglight Glass",
+  "block.onewayglass.mud_glass": "Mud Glass",
+  "block.onewayglass.muddy_mangrove_roots_glass": "Muddy Mangrove Roots Glass"
 }

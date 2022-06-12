@@ -429,6 +429,20 @@ public class ModBlocks {
     public static final DirectionalBlock RAW_IRON_BLOCK_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
     public static final DirectionalBlock RAW_COPPER_BLOCK_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
     public static final DirectionalBlock RAW_GOLD_BLOCK_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MANGROVE_PLANKS_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MANGROVE_LOG_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock STRIPPED_MANGROVE_LOG_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MANGROVE_WOOD_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock REINFORCED_DEEPSLATE_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock PACKED_MUD_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MUD_BRICKS_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock SCULK_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock OCHRE_FROGLIGHT_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock VERDANT_FROGLIGHT_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock PEARLESCENT_FROGLIGHT_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MUD_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+    public static final DirectionalBlock MUDDY_MANGROVE_ROOTS_GLASS = new DirectionalBlock(FabricBlockSettings.of(Material.GLASS).sounds(BlockSoundGroup.GLASS).nonOpaque().hardness(1.5F));
+
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "stone_glass"), STONE_GLASS);
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "granite_glass"), GRANITE_GLASS);
@@ -851,5 +865,18 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "raw_iron_block_glass"), RAW_IRON_BLOCK_GLASS);
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "raw_copper_block_glass"), RAW_COPPER_BLOCK_GLASS);
         Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "raw_gold_block_glass"), RAW_GOLD_BLOCK_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "mangrove_planks_glass"), MANGROVE_PLANKS_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "mangrove_log_glass"), MANGROVE_LOG_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "stripped_mangrove_log_glass"), STRIPPED_MANGROVE_LOG_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "mangrove_wood_glass"), MANGROVE_WOOD_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "reinforced_deepslate_glass"), REINFORCED_DEEPSLATE_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "packed_mud_glass"), PACKED_MUD_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "mud_bricks_glass"), MUD_BRICKS_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "sculk_glass"), SCULK_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "ochre_froglight_glass"), OCHRE_FROGLIGHT_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "verdant_froglight_glass"), VERDANT_FROGLIGHT_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "pearlescent_froglight_glass"), PEARLESCENT_FROGLIGHT_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "mud_glass"), MUD_GLASS);
+        Registry.register(Registry.BLOCK, new Identifier(OneWayGlass.MOD_ID, "muddy_mangrove_roots_glass"), MUDDY_MANGROVE_ROOTS_GLASS);
     }
 }

@@ -430,6 +430,21 @@ public class ModBlockItems {
     public static final BlockItem RAW_IRON_BLOCK_GLASS = new BlockItem(ModBlocks.RAW_IRON_BLOCK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem RAW_COPPER_BLOCK_GLASS = new BlockItem(ModBlocks.RAW_COPPER_BLOCK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem RAW_GOLD_BLOCK_GLASS = new BlockItem(ModBlocks.RAW_GOLD_BLOCK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MANGROVE_PLANKS_GLASS = new BlockItem(ModBlocks.MANGROVE_PLANKS_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MANGROVE_LOG_GLASS = new BlockItem(ModBlocks.MANGROVE_LOG_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem STRIPPED_MANGROVE_LOG_GLASS = new BlockItem(ModBlocks.STRIPPED_MANGROVE_LOG_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MANGROVE_WOOD_GLASS = new BlockItem(ModBlocks.MANGROVE_WOOD_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem REINFORCED_DEEPSLATE_GLASS = new BlockItem(ModBlocks.REINFORCED_DEEPSLATE_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem PACKED_MUD_GLASS = new BlockItem(ModBlocks.PACKED_MUD_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MUD_BRICKS_GLASS = new BlockItem(ModBlocks.MUD_BRICKS_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem SCULK_GLASS = new BlockItem(ModBlocks.SCULK_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem OCHRE_FROGLIGHT_GLASS = new BlockItem(ModBlocks.OCHRE_FROGLIGHT_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem VERDANT_FROGLIGHT_GLASS = new BlockItem(ModBlocks.VERDANT_FROGLIGHT_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem PEARLESCENT_FROGLIGHT_GLASS = new BlockItem(ModBlocks.PEARLESCENT_FROGLIGHT_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MUD_GLASS = new BlockItem(ModBlocks.MUD_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem MUDDY_MANGROVE_ROOTS_GLASS = new BlockItem(ModBlocks.MUDDY_MANGROVE_ROOTS_GLASS, new Item.Settings().group(ItemGroup.DECORATIONS));
+
+
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "stone_glass"), STONE_GLASS);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "granite_glass"), GRANITE_GLASS);
@@ -852,5 +867,18 @@ public class ModBlockItems {
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "raw_iron_block_glass"), RAW_IRON_BLOCK_GLASS);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "raw_copper_block_glass"), RAW_COPPER_BLOCK_GLASS);
         Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "raw_gold_block_glass"), RAW_GOLD_BLOCK_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "mangrove_planks_glass"), MANGROVE_PLANKS_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "mangrove_log_glass"), MANGROVE_LOG_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "stripped_mangrove_log_glass"), STRIPPED_MANGROVE_LOG_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "mangrove_wood_glass"), MANGROVE_WOOD_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "reinforced_deepslate_glass"), REINFORCED_DEEPSLATE_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "packed_mud_glass"), PACKED_MUD_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "mud_bricks_glass"), MUD_BRICKS_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "sculk_glass"), SCULK_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "ochre_froglight_glass"), OCHRE_FROGLIGHT_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "verdant_froglight_glass"), VERDANT_FROGLIGHT_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "pearlescent_froglight_glass"), PEARLESCENT_FROGLIGHT_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "mud_glass"), MUD_GLASS);
+        Registry.register(Registry.ITEM, new Identifier(OneWayGlass.MOD_ID, "muddy_mangrove_roots_glass"), MUDDY_MANGROVE_ROOTS_GLASS);
     }
 }

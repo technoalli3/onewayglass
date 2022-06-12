@@ -421,6 +421,19 @@
     "onewayglass:smooth_basalt_glass",
     "onewayglass:raw_iron_block_glass",
     "onewayglass:raw_copper_block_glass",
-    "onewayglass:raw_gold_block_glass"
+    "onewayglass:raw_gold_block_glass",
+    "onewayglass:mangrove_planks_glass",
+    "onewayglass:mangrove_log_glass",
+    "onewayglass:stripped_mangrove_log_glass",
+    "onewayglass:mangrove_wood_glass",
+    "onewayglass:reinforced_deepslate_glass",
+    "onewayglass:packed_mud_glass",
+    "onewayglass:mud_bricks_glass",
+    "onewayglass:sculk_glass",
+    "onewayglass:ochre_froglight_glass",
+    "onewayglass:verdant_froglight_glass",
+    "onewayglass:pearlescent_froglight_glass",
+    "onewayglass:mud_glass",
+    "onewayglass:muddy_mangrove_roots_glass"
   ]
 }
