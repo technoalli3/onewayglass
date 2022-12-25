@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "onewayglass:items/glass_frame"
+    "layer0": "onewayglass:item/glass_frame"
   }
 }

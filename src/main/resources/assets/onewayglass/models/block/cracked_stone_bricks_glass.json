@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "top": "minecraft:block/cracked_stone_bricks",
-    "front": "onewayglass:blocks/security_glass_front",
+    "front": "onewayglass:block/security_glass_front",
     "side": "minecraft:block/cracked_stone_bricks"
   }
 }

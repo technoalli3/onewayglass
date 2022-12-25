@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "top": "minecraft:block/dead_bubble_coral_block",
-    "front": "onewayglass:blocks/security_glass_front",
+    "front": "onewayglass:block/security_glass_front",
     "side": "minecraft:block/dead_bubble_coral_block"
   }
 }

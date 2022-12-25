@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "onewayglass:items/custom/glass_axe_icon"
+    "layer0": "onewayglass:item/custom/glass_axe_icon"
   }
 }

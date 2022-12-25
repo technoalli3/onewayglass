@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "onewayglass:items/glass_hoe"
+    "layer0": "onewayglass:item/glass_hoe"
   },
   "display": {
     "thirdperson_righthand": {

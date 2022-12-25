@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "onewayglass:items/glass_sword"
+		"layer0": "onewayglass:item/glass_sword"
 	},
 	"display": {
 		"thirdperson_righthand": {

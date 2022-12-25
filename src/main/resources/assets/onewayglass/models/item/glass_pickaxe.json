@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "onewayglass:items/glass_pickaxe"
+    "layer0": "onewayglass:item/glass_pickaxe"
   },
   "display": {
     "thirdperson_righthand": {

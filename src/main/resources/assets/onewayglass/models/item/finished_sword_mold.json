@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "onewayglass:items/finished_sword_mold"
+    "layer0": "onewayglass:item/finished_sword_mold"
   }
 }
