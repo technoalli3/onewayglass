@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
+import java.util.ArrayList;
+
 public class ModBlockItems {
     public static final BlockItem STONE_GLASS = new BlockItem(ModBlocks.STONE_GLASS, new Item.Settings());
     public static final BlockItem GRANITE_GLASS = new BlockItem(ModBlocks.GRANITE_GLASS, new Item.Settings());
@@ -447,6 +449,8 @@ public class ModBlockItems {
 
 
     public static void registerItems() {
+        ArrayList<BlockItem> blockItems = new ArrayList<>();
+
         Registry.register(Registries.ITEM, new Identifier(OneWayGlass.MOD_ID, "stone_glass"), STONE_GLASS);
         Registry.register(Registries.ITEM, new Identifier(OneWayGlass.MOD_ID, "granite_glass"), GRANITE_GLASS);
         Registry.register(Registries.ITEM, new Identifier(OneWayGlass.MOD_ID, "polished_granite_glass"), POLISHED_GRANITE_GLASS);

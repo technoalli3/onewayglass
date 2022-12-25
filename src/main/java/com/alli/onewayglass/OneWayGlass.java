@@ -19,5 +19,6 @@ public class OneWayGlass implements ModInitializer {
         //Tool Items
         GlassToolItem.registerTools();// Calls registry for glass tools
         ModBlocks.registerBlocks();
+        AddToGroup.addBlocksToGroups();
     }
 }
